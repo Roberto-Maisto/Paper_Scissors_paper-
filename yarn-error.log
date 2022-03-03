@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/robertomaisto/.nvm/versions/node/v14.18.3/bin/node /Users/robertomaisto/.yarn/releases/yarn-1.22.1.cjs init
+
+PATH: 
+  /Users/robertomaisto/.rvm/gems/ruby-3.0.0/bin:/Users/robertomaisto/.rvm/gems/ruby-3.0.0@global/bin:/Users/robertomaisto/.rvm/rubies/ruby-3.0.0/bin:/Users/robertomaisto/.rbenv/shims:/Users/robertomaisto/.nvm/versions/node/v14.18.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/bin:/Users/robertomaisto/.rvm/bin
+
+Yarn version: 
+  1.22.1
+
+Node version: 
+  14.18.3
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/robertomaisto/.yarn/releases/yarn-1.22.1.cjs:131414:13)
+      at Interface.emit (events.js:400:28)
+      at Interface._ttyWrite (readline.js:1001:16)
+      at ReadStream.onkeypress (readline.js:265:10)
+      at ReadStream.emit (events.js:400:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1270:36)
+      at ReadStream.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:293:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
